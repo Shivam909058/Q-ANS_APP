@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 # Set API key directly (Note: This is not recommended for production use)
 os.environ[
-    "OPENAI_API_KEY"] = "sk-Tjq8_LHf2OkRViIKwtd29WS2EYhXQiIoNdNPvx06h8T3BlbkFJBAbx-iT9Y_LUcg4-hR-gilTUEj3ml8k1VkjyNT2WAA"
+    "OPENAI_API_KEY"] = "give your api key here " 
 
 # Initialize components
 loader = DirectoryLoader('./datasets', glob="**/*.txt", loader_cls=TextLoader)
